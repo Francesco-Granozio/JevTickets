@@ -1,0 +1,482 @@
+{
+  "6f187630d22cdc4310eebd1c32a3d160640a466eaaf750217d16cd5eb6995447": {
+    "department_probabilities": {
+      "billing": 0.6284512672888423,
+      "technical": 0.0673980768784073,
+      "account": 0.010770574714692036,
+      "sales": 0.2591633431027761,
+      "other": 0.034216738015282286
+    },
+    "department": "billing",
+    "confidence": 0.6284512672888423,
+    "urgency_score": 2,
+    "refund_probability": 0.9331642863186607,
+    "blocked_probability": 0.22057448423574288,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:34:18.232274+00:00"
+  },
+  "aacc43980c762ad480dbf11a16807f8e60ec858a61bb21c83240a6281fb32222": {
+    "department_probabilities": {
+      "billing": 0.8813597458017558,
+      "technical": 0.01491890907600936,
+      "account": 0.007444492223495098,
+      "sales": 0.03500390889296502,
+      "other": 0.06127294400577468
+    },
+    "department": "billing",
+    "confidence": 0.8813597458017558,
+    "urgency_score": 1,
+    "refund_probability": 0.0015686238043989167,
+    "blocked_probability": 0.17253568378305878,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:34:19.947668+00:00"
+  },
+  "136bd9c16100ef2036e40236c9c823a32cc2e392878841ba14976e199021d32e": {
+    "department_probabilities": {
+      "billing": 0.4792106761842224,
+      "technical": 0.1532173342001669,
+      "account": 0.013663934160646029,
+      "sales": 0.3255295360256834,
+      "other": 0.028378519429281202
+    },
+    "department": "billing",
+    "confidence": 0.4792106761842224,
+    "urgency_score": 1,
+    "refund_probability": 0.8273798752208869,
+    "blocked_probability": 0.7486899175589756,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:34:21.689527+00:00"
+  },
+  "edb22cfc0a225df97b42d33786b7bb2b1e85d5478880c1481c48f2c9ec20911a": {
+    "department_probabilities": {
+      "billing": 0.7471724221969742,
+      "technical": 0.18142509740169976,
+      "account": 0.0033992032218091842,
+      "sales": 0.03633915913886785,
+      "other": 0.03166411804064898
+    },
+    "department": "billing",
+    "confidence": 0.7471724221969742,
+    "urgency_score": 1,
+    "refund_probability": 0.010926156269937946,
+    "blocked_probability": 0.9524279881707316,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:34:23.306820+00:00"
+  },
+  "75bc65c567f47fb62cf152d89b72677b433f28f14d25da5de39fe3fed914e943": {
+    "department_probabilities": {
+      "billing": 0.911204594995777,
+      "technical": 0.005824139520470486,
+      "account": 0.023425074583493542,
+      "sales": 0.023905332999923496,
+      "other": 0.035640857900335526
+    },
+    "department": "billing",
+    "confidence": 0.911204594995777,
+    "urgency_score": 1,
+    "refund_probability": 0.0009496252293828339,
+    "blocked_probability": 0.0893368255801784,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:34:24.940345+00:00"
+  },
+  "84721db47b97cc53aae33b1a7be4beb91c005f046628ba11b4398b19336a5fb7": {
+    "department_probabilities": {
+      "billing": 0.5019143754559855,
+      "technical": 0.0038472861858693326,
+      "account": 0.003518925316522258,
+      "sales": 0.4620501473501952,
+      "other": 0.028669265691427744
+    },
+    "department": "billing",
+    "confidence": 0.5019143754559855,
+    "urgency_score": 1,
+    "refund_probability": 0.008326337529416564,
+    "blocked_probability": 0.08812162004999263,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:34:26.750863+00:00"
+  },
+  "52a1f42c1e74475ba2a68e8525eef01df851d8dffdf748f7168e6a826b8e900f": {
+    "department_probabilities": {
+      "billing": 0.003229006810982604,
+      "technical": 0.6484944909552792,
+      "account": 0.29988749701338985,
+      "sales": 0.006000748213923453,
+      "other": 0.04238825700642484
+    },
+    "department": "technical",
+    "confidence": 0.6484944909552792,
+    "urgency_score": 3,
+    "refund_probability": 0.002284397102053522,
+    "blocked_probability": 0.9827494699108597,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:34:28.340300+00:00"
+  },
+  "26b68a8ed439ee7b4d3828576126b100b053f3c1a0b2623e1746be6bbf78ac66": {
+    "department_probabilities": {
+      "billing": 0.004180723072176165,
+      "technical": 0.9337072725153898,
+      "account": 0.0030750579129277377,
+      "sales": 0.0053497536533072855,
+      "other": 0.0536871928461991
+    },
+    "department": "technical",
+    "confidence": 0.9337072725153898,
+    "urgency_score": 1,
+    "refund_probability": 0.001783540041032249,
+    "blocked_probability": 0.6909637113960715,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:34:30.095387+00:00"
+  },
+  "5be1cdc0c7f5fe0969cec991547931bf7fd33bee579a577d857ee6536bb33f1e": {
+    "department_probabilities": {
+      "billing": 0.004371729644657929,
+      "technical": 0.900710634533592,
+      "account": 0.009664992451153263,
+      "sales": 0.011105055050502305,
+      "other": 0.07414758832009452
+    },
+    "department": "technical",
+    "confidence": 0.900710634533592,
+    "urgency_score": 2,
+    "refund_probability": 0.002758560200002062,
+    "blocked_probability": 0.9126085992738462,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:34:31.940206+00:00"
+  },
+  "b9b8d136d5142981488a18f64c4c06df9fd7a8fdba0bda529abe999a14a7a90b": {
+    "department_probabilities": {
+      "billing": 0.0013251565383948021,
+      "technical": 0.8401860426112333,
+      "account": 0.0754989118867695,
+      "sales": 0.0023318509908916134,
+      "other": 0.08065803797271077
+    },
+    "department": "technical",
+    "confidence": 0.8401860426112333,
+    "urgency_score": 2,
+    "refund_probability": 0.0007014829476808306,
+    "blocked_probability": 0.8998941728614801,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:34:33.668827+00:00"
+  },
+  "142793d340db0234da6bb45af66ddeb14f18930526968051aae8a7fee08b5d67": {
+    "department_probabilities": {
+      "billing": 0.006112477601720403,
+      "technical": 0.8958624039940278,
+      "account": 0.023382336012839334,
+      "sales": 0.008839028718552118,
+      "other": 0.06580375367286032
+    },
+    "department": "technical",
+    "confidence": 0.8958624039940278,
+    "urgency_score": 1,
+    "refund_probability": 0.00292810115188678,
+    "blocked_probability": 0.781320614887468,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:34:35.456833+00:00"
+  },
+  "ae97a056cff836379376792f36e81da45ecadda44d772af8d74d8a23a3e11964": {
+    "department_probabilities": {
+      "billing": 0.0031294673355391793,
+      "technical": 0.8159699059669387,
+      "account": 0.04099731354601139,
+      "sales": 0.008114230853699432,
+      "other": 0.13178908229781125
+    },
+    "department": "technical",
+    "confidence": 0.8159699059669387,
+    "urgency_score": 1,
+    "refund_probability": 0.0011303732546428238,
+    "blocked_probability": 0.5859442307533914,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:34:37.158039+00:00"
+  },
+  "af0d66297c6e471a4377b5380e7c7ee155cc3955b3bfe48b1030f62a6e082a07": {
+    "department_probabilities": {
+      "billing": 0.0012636084922309045,
+      "technical": 0.4560182522474501,
+      "account": 0.5063729098338708,
+      "sales": 0.0013116299841560478,
+      "other": 0.03503359944229224
+    },
+    "department": "account",
+    "confidence": 0.5063729098338708,
+    "urgency_score": 1,
+    "refund_probability": 0.0005618442489289358,
+    "blocked_probability": 0.9471113261423768,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:34:38.794731+00:00"
+  },
+  "191ca29b6305015f750f441ee8af5dcef585f6797e7ab4adc90ac5ddb4aceba7": {
+    "department_probabilities": {
+      "billing": 0.00237634521523691,
+      "technical": 0.0345402965396825,
+      "account": 0.899174138910691,
+      "sales": 0.004417842309884051,
+      "other": 0.059491377024505576
+    },
+    "department": "account",
+    "confidence": 0.899174138910691,
+    "urgency_score": 1,
+    "refund_probability": 0.00020441933742558867,
+    "blocked_probability": 0.18970171213457152,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:34:46.086347+00:00"
+  },
+  "083e9d47cbddc06347ae03fd0183a1769a63a54d891e0f458301fd81e8567de2": {
+    "department_probabilities": {
+      "billing": 0.00065896389388847,
+      "technical": 0.48326934832753415,
+      "account": 0.4745190364767328,
+      "sales": 0.0010594183430520626,
+      "other": 0.040493232958792494
+    },
+    "department": "technical",
+    "confidence": 0.48326934832753415,
+    "urgency_score": 1,
+    "refund_probability": 0.0008319753019200446,
+    "blocked_probability": 0.9871182229846542,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:13.439564+00:00"
+  },
+  "25664c30c75e8efc8b127b355094c2bd60ba99b20e9bba52a946030f515bb219": {
+    "department_probabilities": {
+      "billing": 0.0018622771040077788,
+      "technical": 0.012162349221343072,
+      "account": 0.8862081726392692,
+      "sales": 0.002687956310670849,
+      "other": 0.09707924472470907
+    },
+    "department": "account",
+    "confidence": 0.8862081726392692,
+    "urgency_score": 1,
+    "refund_probability": 0.0006252635225535797,
+    "blocked_probability": 0.6665760238971321,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:15.134360+00:00"
+  },
+  "bacb942f26de65a9d737e636d1387e8f5221cf65a57cb7c7dce4fb6dc4d8c55c": {
+    "department_probabilities": {
+      "billing": 0.004366589614509473,
+      "technical": 0.7410169473282656,
+      "account": 0.12870361520088697,
+      "sales": 0.012190508970256189,
+      "other": 0.11372233888608176
+    },
+    "department": "technical",
+    "confidence": 0.7410169473282656,
+    "urgency_score": 1,
+    "refund_probability": 0.0031230298805727343,
+    "blocked_probability": 0.8926343268879923,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:16.712847+00:00"
+  },
+  "560737eadedc0724592fa81eb881185aa65cd7b1a9e26822a2fc10b5e9758be4": {
+    "department_probabilities": {
+      "billing": 0.17005084538005663,
+      "technical": 0.008399381582767767,
+      "account": 0.004762714731410613,
+      "sales": 0.7569769585645932,
+      "other": 0.05981009974117173
+    },
+    "department": "sales",
+    "confidence": 0.7569769585645932,
+    "urgency_score": 1,
+    "refund_probability": 0.0006909894097530972,
+    "blocked_probability": 0.32818850967559104,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:18.310215+00:00"
+  },
+  "9388c053bbfc2a13b13760a2a37d329d2631300995b2af6a56613001d067aea3": {
+    "department_probabilities": {
+      "billing": 0.005874731009431056,
+      "technical": 0.018926072679728238,
+      "account": 0.007780803818470427,
+      "sales": 0.7640399000652419,
+      "other": 0.20337849242712838
+    },
+    "department": "sales",
+    "confidence": 0.7640399000652419,
+    "urgency_score": 1,
+    "refund_probability": 0.00020118081575745914,
+    "blocked_probability": 0.373688907622373,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:19.888982+00:00"
+  },
+  "c17d0232748fd4d71c0f642c7a309a264d5f624f91118da4313ea34152bb9f3b": {
+    "department_probabilities": {
+      "billing": 0.012872789758652171,
+      "technical": 0.02430661317094038,
+      "account": 0.015916203816914873,
+      "sales": 0.8662453670504466,
+      "other": 0.0806590262030459
+    },
+    "department": "sales",
+    "confidence": 0.8662453670504466,
+    "urgency_score": 1,
+    "refund_probability": 0.00040422716187114957,
+    "blocked_probability": 0.7728252132106969,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:21.466490+00:00"
+  },
+  "68af69412209e980c58f0ba9a0ea00ee968e73c922e9a9e7eed1abc7f46d4951": {
+    "department_probabilities": {
+      "billing": 0.007337141907556573,
+      "technical": 0.045179612787337974,
+      "account": 0.07634238674244581,
+      "sales": 0.8159906842319298,
+      "other": 0.05515017433072987
+    },
+    "department": "sales",
+    "confidence": 0.8159906842319298,
+    "urgency_score": 1,
+    "refund_probability": 0.00023489198153365363,
+    "blocked_probability": 0.21498348563578862,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:23.071891+00:00"
+  },
+  "e8479220eb33eec04ce587a0ba6353d4a83a7e9e7c47185757057067eb17cf71": {
+    "department_probabilities": {
+      "billing": 0.01500927950450444,
+      "technical": 0.03904856202117382,
+      "account": 0.018545738918632843,
+      "sales": 0.09888184646282643,
+      "other": 0.8285145730928625
+    },
+    "department": "other",
+    "confidence": 0.8285145730928625,
+    "urgency_score": 1,
+    "refund_probability": 0.0011816478242595767,
+    "blocked_probability": 0.23784424989062952,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:24.693325+00:00"
+  },
+  "15daf7a77072e2347b0567e459cc6c73083dbb64f54c71e32ab56e7cb2d2b6a9": {
+    "department_probabilities": {
+      "billing": 0.009175383945978312,
+      "technical": 0.10382245844718499,
+      "account": 0.08973659078128737,
+      "sales": 0.10056255625164989,
+      "other": 0.6967030105738994
+    },
+    "department": "other",
+    "confidence": 0.6967030105738994,
+    "urgency_score": 1,
+    "refund_probability": 0.0007184514068103991,
+    "blocked_probability": 0.8082958435784383,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:26.325065+00:00"
+  },
+  "e0f37090bfba8eda84e8e7b6941ff656428c9900a256e250f9e60d6afe499896": {
+    "department_probabilities": {
+      "billing": 0.002656200137701419,
+      "technical": 0.21583773620149416,
+      "account": 0.029955793396467263,
+      "sales": 0.007333551178452445,
+      "other": 0.7442167190858847
+    },
+    "department": "other",
+    "confidence": 0.7442167190858847,
+    "urgency_score": 1,
+    "refund_probability": 0.00016257391937874968,
+    "blocked_probability": 0.261444589180685,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:27.904932+00:00"
+  },
+  "d78a77a48969bdce2fdaead635ff39f2566741194b81dab329da6b17af12401f": {
+    "department_probabilities": {
+      "billing": 0.0040543035605850155,
+      "technical": 0.03500200130807589,
+      "account": 0.006397278113111767,
+      "sales": 0.03426859439732354,
+      "other": 0.9202778226209037
+    },
+    "department": "other",
+    "confidence": 0.9202778226209037,
+    "urgency_score": 1,
+    "refund_probability": 0.00043133245065776266,
+    "blocked_probability": 0.13407908325252396,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:29.499354+00:00"
+  },
+  "e3f66b61dbd9c7bfd045624ebe67d06686619dc8c32c274353843c2e604e9683": {
+    "department_probabilities": {
+      "billing": 0.2941406908795662,
+      "technical": 0.508382141830385,
+      "account": 0.16139535082002637,
+      "sales": 0.020962937195639703,
+      "other": 0.015118879274382735
+    },
+    "department": "technical",
+    "confidence": 0.508382141830385,
+    "urgency_score": 2,
+    "refund_probability": 0.0029596131555845156,
+    "blocked_probability": 0.9831106188136635,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:31.073087+00:00"
+  },
+  "66c54ceaea1fd1f2c548a44b93a189c5887c539204349a5df56c69b098d819c2": {
+    "department_probabilities": {
+      "billing": 0.09995698989853594,
+      "technical": 0.5886601137043157,
+      "account": 0.068692606628337,
+      "sales": 0.20643964649979274,
+      "other": 0.03625064326901874
+    },
+    "department": "technical",
+    "confidence": 0.5886601137043157,
+    "urgency_score": 2,
+    "refund_probability": 0.004642037108010735,
+    "blocked_probability": 0.7668432979851533,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:32.712396+00:00"
+  },
+  "28005a0b2783eed5b8436875ec65a9df4d67f086a850fd167417597e52e91952": {
+    "department_probabilities": {
+      "billing": 0.0022604261931985985,
+      "technical": 0.4876279379145919,
+      "account": 0.47330501765920846,
+      "sales": 0.0019319501222953013,
+      "other": 0.03487466811070575
+    },
+    "department": "technical",
+    "confidence": 0.4876279379145919,
+    "urgency_score": 2,
+    "refund_probability": 0.0007990385562558452,
+    "blocked_probability": 0.9810214598071697,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:34.310568+00:00"
+  },
+  "ff43f9787e9901641baa31e9609ae09025e6be4bbdac04e8d44afa6fa4d2d215": {
+    "department_probabilities": {
+      "billing": 0.1478696511946867,
+      "technical": 0.6135634515877961,
+      "account": 0.16956552719732487,
+      "sales": 0.048712307662645,
+      "other": 0.0202890623575473
+    },
+    "department": "technical",
+    "confidence": 0.6135634515877961,
+    "urgency_score": 2,
+    "refund_probability": 0.0037030342607975793,
+    "blocked_probability": 0.9635337239906451,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:35.924579+00:00"
+  },
+  "2714a3c8ce9031e81af391497ed06fe216ad462ac99efa17bda542352dd5ae58": {
+    "department_probabilities": {
+      "billing": 0.11858984317021323,
+      "technical": 0.6538633884567117,
+      "account": 0.1868801367598661,
+      "sales": 0.014037068048225753,
+      "other": 0.026629563564983295
+    },
+    "department": "technical",
+    "confidence": 0.6538633884567117,
+    "urgency_score": 1,
+    "refund_probability": 0.00046444601967983283,
+    "blocked_probability": 0.7160793394251946,
+    "model_name": "AlexWortega/openjev/qwen3.5-4b-nli-v2",
+    "analyzed_at": "2026-09-27T18:35:37.610273+00:00"
+  }
+}

@@ -1,0 +1,10 @@
+.git
+.env
+.venv
+.inspection-openjev
+**/__pycache__
+**/.pytest_cache
+**/node_modules
+frontend/dist
+backend/data/*.db
+backend/data/*.db-*

@@ -1,0 +1,31 @@
+subject;message;expected_department;expected_urgency;expected_refund_requested;expected_customer_blocked;expected_human_review;notes
+Charged twice for my subscription;I can see two charges of €49 for this month on my card. I only have one subscription. Please refund the duplicate charge today.;billing;2;1;0;0;Clear duplicate charge and explicit refund request.
+Where can I download my invoice?;Hi, I need the invoice for last month's subscription for my accounting records. Where can I download it?;billing;0;0;0;0;Simple billing information request.
+Card charged after cancellation;I cancelled my plan last week but I was charged again this morning. I want the charge reversed.;billing;2;1;0;0;Cancellation-related billing issue.
+Payment failed but money is pending;The checkout said my payment failed, but my bank shows a pending charge. Should I try paying again?;billing;1;0;0;0;"Payment status question; no explicit refund."
+Need to change billing details;Our company address changed and I need future invoices to show the new legal address and VAT number.;billing;0;0;0;0;Billing profile update.
+Unexpected price increase;My monthly plan used to cost €29 and now I was charged €39. I don't understand why the amount changed.;billing;1;0;0;0;Pricing/charge discrepancy, but primarily billing.
+Dashboard shows a blank page;After logging in, the dashboard is completely blank in Chrome and Firefox. I cannot access any of my projects.;technical;3;0;1;0;"Clear product failure; customer blocked."
+CSV export fails;Every time I export a report as CSV I get an 'Internal Server Error'. Viewing reports works normally.;technical;2;0;0;0;"Feature-specific bug; partial product access remains."
+Webhook events are delayed;Our webhook events are arriving 20 to 30 minutes late since this morning. This is breaking our automation.;technical;3;0;1;0;Production-impacting integration issue.
+Mobile layout is broken;On my iPhone the settings page overlaps and I cannot tap the save button. Desktop works fine.;technical;2;0;1;0;User blocked from specific action on mobile.
+API returns 429 unexpectedly;We're receiving 429 errors after only a few requests. Our usage dashboard says we are well below the documented limit.;technical;2;0;0;0;API behavior issue.
+Notification emails missing;I enabled email notifications but none are being delivered. In-app notifications still appear normally.;technical;1;0;0;0;Non-blocking technical issue.
+I cannot reset my password;The password reset email arrives, but the link says it has already expired even when I click it immediately.;account;3;0;1;0;Authentication/account access issue.
+Change my account email;I no longer use my old work address and want to move my account to my new email address.;account;1;0;0;0;Standard account-management request.
+Two-factor authentication problem;I replaced my phone and no longer have access to my authenticator app. I cannot sign in to my account.;account;3;0;1;0;Account access blocked by 2FA.
+Please delete my account;I would like to permanently delete my account and all profile information associated with it.;account;1;0;0;0;Account deletion request.
+Team member cannot accept invitation;I invited a colleague to our workspace, but the invite link says the invitation is invalid.;account;2;0;1;0;Account/workspace membership issue.
+Do you offer an annual plan?;We're evaluating the product for a 12-person team. Do you have annual pricing or volume discounts?;sales;1;0;0;0;Pre-purchase pricing question.
+Requesting an enterprise demo;Our engineering organization is considering your enterprise plan. Can we schedule a demo next week?;sales;1;0;0;0;Clear sales lead.
+Need a quote for 80 users;Can you send us a quote for approximately 80 seats including SSO and priority support?;sales;1;0;0;0;Enterprise quote request.
+Does the Pro plan include API access?;I'm comparing your Pro and Business plans before subscribing. Does Pro include API access and higher rate limits?;sales;0;0;0;0;Plan comparison before purchase.
+Partnership proposal;We run a developer newsletter and would like to discuss a possible content partnership with your company.;other;0;0;0;0;"Not customer support; partnership inquiry."
+Security questionnaire;Our procurement team needs your SOC 2 report and a completed vendor security questionnaire before approval.;other;1;0;0;0;Compliance/procurement request.
+Feature request: dark mode;It would be great to have a true dark mode in the dashboard. Is this on your roadmap?;other;0;0;0;0;Product feedback rather than support incident.
+Press inquiry;I'm a journalist writing about AI developer tools and would like to speak with someone from your team.;other;1;0;0;0;Media request.
+Subscription issue and account stopped working;Something happened with my subscription yesterday and now parts of my account don't work. I'm not sure whether the payment caused it.;billing;2;0;1;1;Intentionally ambiguous between billing, account and technical.
+Can't use product after plan change;I upgraded this morning, the payment went through, but premium features are still locked and I cannot continue my work.;billing;3;0;1;1;Ambiguous billing vs technical/account entitlement issue.
+Login problem after company card expired;Our company card expired last week. Today I was logged out and now I cannot access the workspace. I don't know if the two things are related.;account;3;0;1;1;Ambiguous account access vs billing state.
+Plan says active but API is disabled;The billing page says our plan is active and paid, but API access suddenly stopped with a message saying the feature is unavailable.;technical;3;0;1;1;Ambiguous technical vs billing/entitlement.
+Need help with upgrade and broken settings;I want to upgrade our workspace, but the settings page keeps throwing an error when I open the billing section. Can someone help?;technical;2;0;0;1;"Ambiguous sales/billing/technical ticket; ideal human-review candidate."
